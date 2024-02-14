@@ -1,0 +1,122 @@
+.lead {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .lead__title {
+    width: 793px;
+    font-weight: 900;
+    font-size: 6em;
+    color: #fff;
+    line-height: 100px;
+    line-height: 6.24rem;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 32px;
+    padding-bottom: 1em;
+  }
+  
+  .lead__subtitle {
+    width: 720px;
+    font-family: "inter";
+    font-weight: 400;
+    font-size: 30px;
+    font-size: 2em;
+    color: #fff;
+    line-height: 36px;
+    line-height: 2.25rem;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 64px;
+    padding-bottom: 2em;
+  }
+  
+  .lead__image {
+    width: 984px;
+    height: 615px;
+    filter: grayscale(100%);
+    padding-bottom: 92px;
+    padding-bottom: 5.74em;
+    margin: auto;
+  }
+  
+  /* mobile 320px */
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    .lead__title {
+      width: 90%;
+      max-width: 400px;
+      font-size: 2.5em;
+      line-height: 2.75rem;
+      padding-bottom: 2rem;
+    }
+  
+    .lead__subtitle {
+      width: 90%;
+      font-size: 1em;
+      line-height: 1.25rem;
+      padding-bottom: 2.5rem;
+    }
+  
+    .lead__image {
+      width: 100%;
+      height: auto;
+      padding-bottom: 2em;
+    }
+  }
+  
+  /* mobile 480px */
+  @media screen and (min-width: 480px) and (max-width: 768px) {
+    .lead__title {
+      width: 90%;
+      max-width: 720px;
+      font-size: 4.5em;
+      line-height: 4rem;
+      padding-bottom: 3.4rem;
+    }
+  
+    .lead__subtitle {
+      width: 90%;
+      font-size: 1.5em;
+      line-height: 1.75rem;
+      padding-bottom: 2.4em;
+    }
+  
+    .lead__image {
+      width: 100%;
+      height: auto;
+      padding-bottom: 3em;
+    }
+  }
+  
+  /* tablet 768px */
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .lead__title {
+      min-width: 288px;
+      width: 90%;
+      max-width: 793px;
+      font-size: 5em;
+      line-height: 100px;
+      padding-bottom: 1em;
+    }
+  
+    .lead__subtitle {
+      min-width: 288px;
+      width: 720px;
+      font-size: 30px;
+      line-height: 36px;
+      padding-bottom: 69px;
+    }
+  
+    .lead__image {
+      width: 288px;
+      width: 100%;
+      height: auto;
+      padding-bottom: 32px;
+      padding-bottom: 3.5em;
+      object-fit: cover;
+    }
+  }
+  
