@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #2A2C2F;
+  }
+  
+  .header__logo {
+    width: 270px;
+    height: 70px;
+  /*   padding: 34px 0 90px; */
+    padding-top: 34px;
+    padding-bottom: 90px;
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 1280px){
+    .header__logo {
+      width: 63%;
+      max-width: 270px;
+      height: auto;
+      padding-bottom: calc(50px + (90 - 50) * ((100vw - 320px) / (1280 - 320)));
+    }
+  }
+  
