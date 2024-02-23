@@ -41,13 +41,13 @@ h1, h2, h3, h4, h5, h6, p, li {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.3s ease;
+  transition: bacground-color 0.3s ease;
   background-color: #0278FE;
   color: #fff;
   text-decoration: none;
   border: none;
   border-radius: 5px;
-  cursor: pointer;
+  
 }
 
 .img {
