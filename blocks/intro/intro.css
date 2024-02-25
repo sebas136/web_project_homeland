@@ -8,7 +8,7 @@
   margin: auto;
   display: flex;
   flex-direction: column;
-  /* margin-left: calc(148px + 1vw); */
+  
 }
 
 .intro__title, .intro__main-text, .intro__author, .intro__text {
